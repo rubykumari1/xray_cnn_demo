@@ -4,7 +4,7 @@ import torch.nn as nn
 from PIL import Image
 import torchvision.transforms as transforms
 
-# Define model
+# Define model - newer version wih diff background
 class SimpleCNN(nn.Module):
     def __init__(self):
         super(SimpleCNN, self).__init__()
